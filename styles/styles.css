@@ -1,0 +1,257 @@
+
+
+
+*{
+    margin:0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: #19072d;
+}
+
+div{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.About{
+    color: #ffff;
+}
+a{
+    padding: 15px;
+    color: grey;
+    text-decoration: none;
+}
+    
+.hbutton{
+    background:linear-gradient(to right, #511199,#5757d9);
+    color: #ffff;
+    width: 120px;
+    height: 50px;
+    border-radius: 7px;
+}
+.up{
+    background-color: #2E254D;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.make{
+    color: #ffff;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 310px;
+    width: 50%;
+
+}
+h1{
+    font-size: 80px;
+}
+aside{
+    background-image: url(../assets/images/hojasFondo.jpg);
+     background-size:cover;
+    align-content: center;
+    width: 50%;
+    height: 600px;
+}
+.contenedor-Phone{
+    text-align: center;
+}
+
+.phone{
+    margin-left: 60px;
+    padding-left: 50px;
+    height: 400px;
+}
+
+.botonbanner{
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: grey;
+  height: 45px;
+  width: 270px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  
+}
+.features{
+    color: #ffff;
+    background-color: #2E254D;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: #ffff;
+    margin-top:3px;
+    margin-bottom: 3px;
+    width: 110px;
+}
+.now{
+    color: rgb(226, 113, 164);
+    background-color: #ffff;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: ridge;
+    margin-top:3px;
+    margin-bottom: 3px;
+    width: 145px;
+}
+
+.mid{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+h2{ 
+    text-align: center;
+    color: #c63489;
+    margin: 50px;
+    font-size: 70px;
+}
+h3{
+    color:#b10a9a;
+    font-size: xx-large;
+}
+.laptop{
+    width: 500px;
+    height: 350px;
+}
+.darknes{
+    background-color: #19072d;
+}
+.dark{
+     text-align: center;
+    color: #ffffff;
+    margin: 50px;
+    font-size: 70px;
+}
+.p{
+    color: #c1b7b7;
+    text-align: center;
+}
+.secciones{
+    display: flex;
+    justify-content:center;
+    background-color: #19072d;
+    padding-top: 50px;
+   
+}
+.sec{
+     background-color: #ffff;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border: 2px;
+    border-radius: 3px;
+    width: 320px;
+    margin: 15px;
+}
+
+article{
+   background-color: #ffff;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+     border: 2px;
+    border-radius: 10px;
+    width: 260px;
+
+
+    
+}
+.maletin{
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+
+}
+.maleta{
+    font-size: 60px;
+    font-weight: 0;
+    color: black;
+}
+
+.precio{
+    display: flex;
+    justify-content: start;
+}
+.price{
+    font-size: 10px;
+}
+.lite{
+    color: rgb(251, 100, 158);
+    font-size: large;
+}
+
+.pricename{
+    font-size:xx-large;
+}
+
+.Use{
+    color: #19072d;
+    background-color: #ffffff;
+    border: none;
+    width: 250px;
+    height: 170px;
+}
+li{
+    margin-left: 20px;
+}
+
+.star {
+  color: rgb(251, 100, 158);
+  font-size: 18px;
+}
+
+.check {
+  color: rgb(251, 100, 158);
+  font-size: 18px;
+}
+
+.suscribe{
+    color: #ffffff;
+    background-color: #19072d;
+    border: 2px;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
+.suscriber{
+     color: #ffffff;
+    background-color: rgb(251, 100, 158);
+    border: 2px;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
+footer {
+  background-color: #eee;
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .pink {
+  color: #f12ca3;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  height: 20px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
